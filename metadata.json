@@ -1,0 +1,5 @@
+{
+  "name": "Company Intel Extractor",
+  "description": "An AI-powered tool that extracts detailed company profiles and salary data from career pages using Google Search grounding.",
+  "requestFramePermissions": []
+}
