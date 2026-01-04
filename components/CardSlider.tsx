@@ -371,7 +371,7 @@ const CardSlider: React.FC<CardSliderProps> = ({ isOpen, onClose, cards, onUpdat
                         <p className="text-zinc-500 text-sm font-medium">No matches found</p>
                     </div>
                 ) : (
-                    <div className="grid grid-cols-1 xl:grid-cols-2 gap-6">
+                    <div className="flex flex-col gap-4">
                         {filteredCards.map(card => (
                             <MiniCard 
                                 key={card.id} 
